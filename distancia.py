@@ -15,5 +15,5 @@ def distancia(lat1, long1, lat2, long2):
     dlon = long2-long1
 
     a = pow(sin(dlat/2),2) + cos(lat1)*cos(lat2)*pow(sin(dlon/2),2)
-    dist = 2 * radius * asin(sqrt(a))
+    dist = 2 * radio * asin(sqrt(a))
     return dist
