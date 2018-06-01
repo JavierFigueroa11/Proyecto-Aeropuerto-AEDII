@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_392faea514b54c01a541e83024fac1a9 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_392faea514b54c01a541e83024fac1a9" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_392faea514b54c01a541e83024fac1a9 = L.map(
+                                  'map_392faea514b54c01a541e83024fac1a9',
+                                  {center: [-40.1872152,-64.6290514],
+                                  zoom: 4,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_b6b13fd3aceb4b459c3887dafdb0adc3 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_392faea514b54c01a541e83024fac1a9);
+        
+    
+
+            var marker_17fcf4b2492b41cab21d3cc768c7e662 = L.marker(
+                [-34.55803,-58.417009],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_c68f06e15a5243739e389df27e08083b = L.popup({maxWidth: '300'});
+
+            
+                var html_ee2ad3e7c479473eabf38264a85fc92f = $('<div id="html_ee2ad3e7c479473eabf38264a85fc92f" style="width: 100.0%; height: 100.0%;">Aeroparque Jorge Newbery</div>')[0];
+                popup_c68f06e15a5243739e389df27e08083b.setContent(html_ee2ad3e7c479473eabf38264a85fc92f);
+            
+
+            marker_17fcf4b2492b41cab21d3cc768c7e662.bindPopup(popup_c68f06e15a5243739e389df27e08083b);
+
+            
+        
+    
+
+            var marker_05eae747758b4d48aa1c105121fbef8c = L.marker(
+                [-34.815003999999995,-58.5348284],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_1e60be87ebcd42fcaba8bb2bd47570aa = L.popup({maxWidth: '300'});
+
+            
+                var html_1e6d95bcbdce49aaab6a1f3f5c02f449 = $('<div id="html_1e6d95bcbdce49aaab6a1f3f5c02f449" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Ministro Pistarini</div>')[0];
+                popup_1e60be87ebcd42fcaba8bb2bd47570aa.setContent(html_1e6d95bcbdce49aaab6a1f3f5c02f449);
+            
+
+            marker_05eae747758b4d48aa1c105121fbef8c.bindPopup(popup_1e60be87ebcd42fcaba8bb2bd47570aa);
+
+            
+        
+    
+
+            var marker_f0b30144bd2e477d9906963b2c24a42e = L.marker(
+                [-31.315437,-64.21231999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_4c49aa1006c444f38dbf97e2578f4514 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d6120dacefe4f5db4739c36c57ea2b0 = $('<div id="html_7d6120dacefe4f5db4739c36c57ea2b0" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Ingeniero Ambrosio Taravella</div>')[0];
+                popup_4c49aa1006c444f38dbf97e2578f4514.setContent(html_7d6120dacefe4f5db4739c36c57ea2b0);
+            
+
+            marker_f0b30144bd2e477d9906963b2c24a42e.bindPopup(popup_4c49aa1006c444f38dbf97e2578f4514);
+
+            
+        
+    
+
+            var marker_431bfb24e9d249a3806ab8fbf0da12db = L.marker(
+                [-32.827864,-68.79849],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_e0279b4b95b9438ea6395b6b0df7d57b = L.popup({maxWidth: '300'});
+
+            
+                var html_42ea761a4b3649f9826a1699223db10c = $('<div id="html_42ea761a4b3649f9826a1699223db10c" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Gobernador Francisco Gabrielli</div>')[0];
+                popup_e0279b4b95b9438ea6395b6b0df7d57b.setContent(html_42ea761a4b3649f9826a1699223db10c);
+            
+
+            marker_431bfb24e9d249a3806ab8fbf0da12db.bindPopup(popup_e0279b4b95b9438ea6395b6b0df7d57b);
+
+            
+        
+    
+
+            var marker_f25033da91a94c728f1881bf80507e70 = L.marker(
+                [-41.146714,-71.16203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_ca08fd2bac3048649abc7eb9026ff0a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_d68689e3008545e6bbda372fb1f94210 = $('<div id="html_d68689e3008545e6bbda372fb1f94210" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Teniente Luis Candelaria</div>')[0];
+                popup_ca08fd2bac3048649abc7eb9026ff0a1.setContent(html_d68689e3008545e6bbda372fb1f94210);
+            
+
+            marker_f25033da91a94c728f1881bf80507e70.bindPopup(popup_ca08fd2bac3048649abc7eb9026ff0a1);
+
+            
+        
+    
+
+            var marker_1af6f292d4d74b11bf76bd626e8ea801 = L.marker(
+                [-24.84423,-65.478412],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_0a296cd1b8c74badbc1f6efce7098056 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6e2bd050aee4fdca19b9bb3a933e24b = $('<div id="html_d6e2bd050aee4fdca19b9bb3a933e24b" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional de Salta Martin Miguel de Guemes</div>')[0];
+                popup_0a296cd1b8c74badbc1f6efce7098056.setContent(html_d6e2bd050aee4fdca19b9bb3a933e24b);
+            
+
+            marker_1af6f292d4d74b11bf76bd626e8ea801.bindPopup(popup_0a296cd1b8c74badbc1f6efce7098056);
+
+            
+        
+    
+
+            var marker_f1a26a9663e4464b9188e6d4ff66635d = L.marker(
+                [-25.731778,-54.476181],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_8fd8ec38bde740afacd88b6eb747d819 = L.popup({maxWidth: '300'});
+
+            
+                var html_82faa35da27f4f4ab078a9b7c0116b50 = $('<div id="html_82faa35da27f4f4ab078a9b7c0116b50" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional de Puerto Iguazu</div>')[0];
+                popup_8fd8ec38bde740afacd88b6eb747d819.setContent(html_82faa35da27f4f4ab078a9b7c0116b50);
+            
+
+            marker_f1a26a9663e4464b9188e6d4ff66635d.bindPopup(popup_8fd8ec38bde740afacd88b6eb747d819);
+
+            
+        
+    
+
+            var marker_d7841caed3a342dc9a0bef3cab6abbf6 = L.marker(
+                [-38.952137,-68.140484],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_fcbd91360c7245feaa20c8cd68956ca1 = L.popup({maxWidth: '300'});
+
+            
+                var html_afddd5eddb4840e0a47151b21ea0f485 = $('<div id="html_afddd5eddb4840e0a47151b21ea0f485" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Presidente Peron</div>')[0];
+                popup_fcbd91360c7245feaa20c8cd68956ca1.setContent(html_afddd5eddb4840e0a47151b21ea0f485);
+            
+
+            marker_d7841caed3a342dc9a0bef3cab6abbf6.bindPopup(popup_fcbd91360c7245feaa20c8cd68956ca1);
+
+            
+        
+    
+
+            var marker_30750edea28b468c862ad8f8ff0b32fc = L.marker(
+                [-54.842237,-68.309701],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_d1fef409d80d485f96baf70c614122f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ccea493e72fc499f9e95c961d07c45c0 = $('<div id="html_ccea493e72fc499f9e95c961d07c45c0" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Malvinas Argentinas</div>')[0];
+                popup_d1fef409d80d485f96baf70c614122f6.setContent(html_ccea493e72fc499f9e95c961d07c45c0);
+            
+
+            marker_30750edea28b468c862ad8f8ff0b32fc.bindPopup(popup_d1fef409d80d485f96baf70c614122f6);
+
+            
+        
+    
+
+            var marker_4c587c0f8579429f8d77b382a308eac8 = L.marker(
+                [-32.916887,-60.780391],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_6751e02265424e8fa63c7626036b65fa = L.popup({maxWidth: '300'});
+
+            
+                var html_53bd23ff59da42b69c374e874d0f01fd = $('<div id="html_53bd23ff59da42b69c374e874d0f01fd" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Rosario Islas Malvinas</div>')[0];
+                popup_6751e02265424e8fa63c7626036b65fa.setContent(html_53bd23ff59da42b69c374e874d0f01fd);
+            
+
+            marker_4c587c0f8579429f8d77b382a308eac8.bindPopup(popup_6751e02265424e8fa63c7626036b65fa);
+
+            
+        
+    
+
+            var marker_034cd56478a74354be113acd568ea744 = L.marker(
+                [-50.283977,-72.053641],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_73c96a311c0d46a1a0c3d65bb9843a8e = L.popup({maxWidth: '300'});
+
+            
+                var html_4c1797200c75450aa6ee5beb1378eea8 = $('<div id="html_4c1797200c75450aa6ee5beb1378eea8" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Comandante Armando Tola</div>')[0];
+                popup_73c96a311c0d46a1a0c3d65bb9843a8e.setContent(html_4c1797200c75450aa6ee5beb1378eea8);
+            
+
+            marker_034cd56478a74354be113acd568ea744.bindPopup(popup_73c96a311c0d46a1a0c3d65bb9843a8e);
+
+            
+        
+    
+
+            var marker_b3369d8c53e04e3dbd18fbc9b4149d16 = L.marker(
+                [-45.789435,-67.46749799999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_3b68aaaab2a948cf9ef113c3572e3d52 = L.popup({maxWidth: '300'});
+
+            
+                var html_b8cd89cbf2b245e7b2478d239691916d = $('<div id="html_b8cd89cbf2b245e7b2478d239691916d" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional General Enrique Mosconi</div>')[0];
+                popup_3b68aaaab2a948cf9ef113c3572e3d52.setContent(html_b8cd89cbf2b245e7b2478d239691916d);
+            
+
+            marker_b3369d8c53e04e3dbd18fbc9b4149d16.bindPopup(popup_3b68aaaab2a948cf9ef113c3572e3d52);
+
+            
+        
+    
+
+            var marker_eabc8b5793914167b2d56af1d0318c28 = L.marker(
+                [-26.835888,-65.108361],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_a7afc5fc21804cd2bc859d6331ccc290 = L.popup({maxWidth: '300'});
+
+            
+                var html_44d571acb23d4e60b51eef1476935945 = $('<div id="html_44d571acb23d4e60b51eef1476935945" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Teniente General Benjamin Matienzo</div>')[0];
+                popup_a7afc5fc21804cd2bc859d6331ccc290.setContent(html_44d571acb23d4e60b51eef1476935945);
+            
+
+            marker_eabc8b5793914167b2d56af1d0318c28.bindPopup(popup_a7afc5fc21804cd2bc859d6331ccc290);
+
+            
+        
+    
+
+            var marker_464285b1855d46f9ba1e9af547d03b81 = L.marker(
+                [-38.716152,-62.164955000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_8e662d11fab444a5a70b3161b3a9797a = L.popup({maxWidth: '300'});
+
+            
+                var html_7d5df03a245a4b0aa623bb449eadc5d1 = $('<div id="html_7d5df03a245a4b0aa623bb449eadc5d1" style="width: 100.0%; height: 100.0%;">Aeropuerto Comandante Espora</div>')[0];
+                popup_8e662d11fab444a5a70b3161b3a9797a.setContent(html_7d5df03a245a4b0aa623bb449eadc5d1);
+            
+
+            marker_464285b1855d46f9ba1e9af547d03b81.bindPopup(popup_8e662d11fab444a5a70b3161b3a9797a);
+
+            
+        
+    
+
+            var marker_1bd5944ceaeb4d1cb4c2b867693e6eb3 = L.marker(
+                [-43.209957,-65.27340500000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_adc96340b45745f29e5e45461fa53b31 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a6409bb967a41d7930ed71ce376135f = $('<div id="html_3a6409bb967a41d7930ed71ce376135f" style="width: 100.0%; height: 100.0%;">Aeropuerto Almirante Marcos A. Zar</div>')[0];
+                popup_adc96340b45745f29e5e45461fa53b31.setContent(html_3a6409bb967a41d7930ed71ce376135f);
+            
+
+            marker_1bd5944ceaeb4d1cb4c2b867693e6eb3.bindPopup(popup_adc96340b45745f29e5e45461fa53b31);
+
+            
+        
+    
+
+            var marker_29dc845220a04713b129dab8f4e50777 = L.marker(
+                [-27.444926,-59.04873900000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_6f763f066cf5428ea4f267bf5f4d3737 = L.popup({maxWidth: '300'});
+
+            
+                var html_43944fb6a06e472791ff8d914e11067b = $('<div id="html_43944fb6a06e472791ff8d914e11067b" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional de Resistencia</div>')[0];
+                popup_6f763f066cf5428ea4f267bf5f4d3737.setContent(html_43944fb6a06e472791ff8d914e11067b);
+            
+
+            marker_29dc845220a04713b129dab8f4e50777.bindPopup(popup_6f763f066cf5428ea4f267bf5f4d3737);
+
+            
+        
+    
+
+            var marker_7d4f5c80189740b8a4b23e13d2c84d71 = L.marker(
+                [-37.933205,-57.581518],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_799afaca550c47acb6d82f564501feac = L.popup({maxWidth: '300'});
+
+            
+                var html_b8fd23a0a6e64c03b1c5d156a09a9609 = $('<div id="html_b8fd23a0a6e64c03b1c5d156a09a9609" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Astor Piazolla</div>')[0];
+                popup_799afaca550c47acb6d82f564501feac.setContent(html_b8fd23a0a6e64c03b1c5d156a09a9609);
+            
+
+            marker_7d4f5c80189740b8a4b23e13d2c84d71.bindPopup(popup_799afaca550c47acb6d82f564501feac);
+
+            
+        
+    
+
+            var marker_bc6f11d51caf449a94b3fd8d3385b648 = L.marker(
+                [-24.385987,-65.093755],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_46f60593321d48bcac6cf2144ca2b722 = L.popup({maxWidth: '300'});
+
+            
+                var html_94f1ec38929947c58ad4d40c184aa418 = $('<div id="html_94f1ec38929947c58ad4d40c184aa418" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Gobernador Horacio Guzman</div>')[0];
+                popup_46f60593321d48bcac6cf2144ca2b722.setContent(html_94f1ec38929947c58ad4d40c184aa418);
+            
+
+            marker_bc6f11d51caf449a94b3fd8d3385b648.bindPopup(popup_46f60593321d48bcac6cf2144ca2b722);
+
+            
+        
+    
+
+            var marker_36c0760120244c6ea2a781d74c4f0014 = L.marker(
+                [-51.611788,-69.306315],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_53e8c98685d34fafbba520ec5b9c17da = L.popup({maxWidth: '300'});
+
+            
+                var html_682b369ce79b41c591485771c2bde150 = $('<div id="html_682b369ce79b41c591485771c2bde150" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Piloto Civil Norberto Fernandez</div>')[0];
+                popup_53e8c98685d34fafbba520ec5b9c17da.setContent(html_682b369ce79b41c591485771c2bde150);
+            
+
+            marker_36c0760120244c6ea2a781d74c4f0014.bindPopup(popup_53e8c98685d34fafbba520ec5b9c17da);
+
+            
+        
+    
+
+            var marker_c04606b0814e44728d2e1672aa4039cf = L.marker(
+                [-31.571814,-68.422568],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_19ac093df49945f0b81f648c536106d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_df7c50701fdb4ec8a56eebc298c80f40 = $('<div id="html_df7c50701fdb4ec8a56eebc298c80f40" style="width: 100.0%; height: 100.0%;">Aeropuerto Domingo Faustino Sarmiento</div>')[0];
+                popup_19ac093df49945f0b81f648c536106d9.setContent(html_df7c50701fdb4ec8a56eebc298c80f40);
+            
+
+            marker_c04606b0814e44728d2e1672aa4039cf.bindPopup(popup_19ac093df49945f0b81f648c536106d9);
+
+            
+        
+    
+
+            var marker_50d8f688005449368178376510b09c3b = L.marker(
+                [-51.685672,-57.777643999999995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_5632d8102cdc4738afb966872d52e586 = L.popup({maxWidth: '300'});
+
+            
+                var html_685962689309443dbf7e964f8db8ade9 = $('<div id="html_685962689309443dbf7e964f8db8ade9" style="width: 100.0%; height: 100.0%;">Aeropuerto de Puerto Argentino</div>')[0];
+                popup_5632d8102cdc4738afb966872d52e586.setContent(html_685962689309443dbf7e964f8db8ade9);
+            
+
+            marker_50d8f688005449368178376510b09c3b.bindPopup(popup_5632d8102cdc4738afb966872d52e586);
+
+            
+        
+    
+
+            var marker_3c382dba5a1d4d25889f75911cc21f2a = L.marker(
+                [-28.593056,-65.750833],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_812935d49e8d44f3826ee2c58e12edf9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8509d22f4b64e848ab193306d6bcc19 = $('<div id="html_f8509d22f4b64e848ab193306d6bcc19" style="width: 100.0%; height: 100.0%;">Aeropuerto Coronel Felipe Varela</div>')[0];
+                popup_812935d49e8d44f3826ee2c58e12edf9.setContent(html_f8509d22f4b64e848ab193306d6bcc19);
+            
+
+            marker_3c382dba5a1d4d25889f75911cc21f2a.bindPopup(popup_812935d49e8d44f3826ee2c58e12edf9);
+
+            
+        
+    
+
+            var marker_4bae6ae23f3e433e8226b0e262faa3c1 = L.marker(
+                [-27.445555,-58.761945],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_f552fbb55a47424289a8eaa4c7cf0935 = L.popup({maxWidth: '300'});
+
+            
+                var html_20338357b0d146d68ac19364dfcfa64e = $('<div id="html_20338357b0d146d68ac19364dfcfa64e" style="width: 100.0%; height: 100.0%;">Aeropuerto Internacional Doctor Fernando Piragine Niveyro</div>')[0];
+                popup_f552fbb55a47424289a8eaa4c7cf0935.setContent(html_20338357b0d146d68ac19364dfcfa64e);
+            
+
+            marker_4bae6ae23f3e433e8226b0e262faa3c1.bindPopup(popup_f552fbb55a47424289a8eaa4c7cf0935);
+
+            
+        
+    
+
+            var marker_b57ef7e9dafb436d942acf9a98b202d5 = L.marker(
+                [-31.794721999999997,-60.480278000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_8a0ed7ce06574f1fa05a73552067c4df = L.popup({maxWidth: '300'});
+
+            
+                var html_d25abccfab1d49119693da33fbbde976 = $('<div id="html_d25abccfab1d49119693da33fbbde976" style="width: 100.0%; height: 100.0%;">Aeropuerto General Justo José de Urquiza</div>')[0];
+                popup_8a0ed7ce06574f1fa05a73552067c4df.setContent(html_d25abccfab1d49119693da33fbbde976);
+            
+
+            marker_b57ef7e9dafb436d942acf9a98b202d5.bindPopup(popup_8a0ed7ce06574f1fa05a73552067c4df);
+
+            
+        
+    
+
+            var marker_5b168162af5c4cacbe0037d790ee837a = L.marker(
+                [-22.619167,-63.793333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_392faea514b54c01a541e83024fac1a9);
+            
+    
+            var popup_5fcc5e90fbbf45c9bbd5b0080f7236ff = L.popup({maxWidth: '300'});
+
+            
+                var html_a1010e5bbcf543adad1a77842f2b8e07 = $('<div id="html_a1010e5bbcf543adad1a77842f2b8e07" style="width: 100.0%; height: 100.0%;">Aeropuerto de Tartagal</div>')[0];
+                popup_5fcc5e90fbbf45c9bbd5b0080f7236ff.setContent(html_a1010e5bbcf543adad1a77842f2b8e07);
+            
+
+            marker_5b168162af5c4cacbe0037d790ee837a.bindPopup(popup_5fcc5e90fbbf45c9bbd5b0080f7236ff);
+
+            
+        
+</script>
